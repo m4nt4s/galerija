@@ -1,0 +1,48 @@
+
+
+::-moz-selection { background: #fe6412; color: #fff; text-shadow: none; }
+::selection { background: #fe6412; color: #fff; text-shadow: none; }
+
+
+/* ========================================
+   Links
+   ======================================*/
+
+a:hover, a:active { outline: 0; }
+
+/*=========================================
+	Main Styles
+=========================================*/
+
+
+
+.box {
+    width: 250px;
+    background: #ffffff;
+    border: 1px solid #999;
+    margin: 10px;
+    float: left;
+    -webkit-border-radius: 5px;
+}
+
+.box:hover{
+    border: 1px solid #4582ec;
+    -webkit-box-shadow: 0px 0px 5px 1px #4582ec;
+    box-shadow: 0px 0px 5px 1px #4582ec;
+}
+
+
+
+.isotope-item {
+    z-index: 2;
+
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.page-header{
+    margin:0;
+}

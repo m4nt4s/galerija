@@ -1,0 +1,1 @@
+C:\xampp\htdocs\datadog\app/views/photos/show.blade.php
